@@ -1,6 +1,6 @@
 # 자료구조 스터디
 
-* **2018-08-24 ~ 2019-12-14** 예정
+* **2018-08-24 ~ 2019-12-08**
 * **스터디 교재**
   * `Do it! 자료구조와 함께 배우는 알고리즘 입문 자바 편`
 * **진행 방법**
@@ -21,15 +21,16 @@
   * [6주차 - 재귀 알고리즘(2/2) (by minj0i)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week6_summary.md)
   * [7주차 - 정렬(1/3) 버블, 선택, 삽입 정렬 (by younggeun0)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week7_summary.md)
   * [8주차 - 정렬(2/3) 셀, 퀵정렬(by minj0i)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week8_summary.md)
-  * 9주차 - 정렬(3/3) 병합, 힙, 도수 정렬(by sgmsgood)
+  * [9주차 - 정렬(3/3) 병합, 힙, 도수 정렬(by sgmsgood)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week9_summary_mergesort.md)
   * [10주차 - 집합 (by younggeun0)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week9_summary.md)
   * [11주차 - 문자열 검색 (by younggeun0)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week10_summary.md)
-  * 12주자 - 리스트(1/2) (by minj0i)
-  * 13주차 - 리스트(2/2) (by sgmsgood)
-  * 14주차 - 트리(1/2) (by younggeun0)
-  * 15주차 - 트리(2/2) (by minj0i)
-  * 16주차 - 해시 (by sgmsgood)
+  * [12주자 - 리스트(1/2) (by minj0i)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week12_summary.md)
+  * [13주차 - 리스트(2/2) (by sgmsgood)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week11_summary.md)
+  * [14주차 - 트리(1/2) (by younggeun0)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week14_summary.md)
+  * [15주차 - 트리(2/2) (by minj0i)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week15_summary.md)
+  * [16주차 - 해시 (by sgmsgood)](https://github.com/younggeun0/DataStructureStudy/blob/master/summary/week16_summary.md)
 * **문제풀이**
   * [1주차](https://github.com/younggeun0/DataStructureStudy/blob/master/programmers_test/week1.md)
   * [2주차](https://github.com/younggeun0/DataStructureStudy/blob/master/programmers_test/week2.md)
   * [3주차](https://github.com/younggeun0/DataStructureStudy/blob/master/programmers_test/week3.md)
+  * [4주차](https://github.com/younggeun0/DataStructureStudy/blob/master/programmers_test/week4.md)

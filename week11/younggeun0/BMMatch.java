@@ -14,10 +14,11 @@ public class BMMatch {
 		
 		// 건너뛰기 표 생성
 		for(pText = 0; pText <= Character.MAX_VALUE; pText++) {
-			skip[pText] = patternLength;
+			skip[pText] = patternLength; // 일단 패턴의 길이만큼 건너뛰기 표 값을 초기화
 		}
-		
 		for(pText = 0; pText < patternLength-1; pText++) {
+			// 패턴이 들어있는 문자를 만난 경우 
+			// 마지막에 나오는 위치의 인덱스가 pText이면 패턴을 옮길 크기는 패턴의 길이 - pText - 1
 			skip[pattern.charAt(pText)] = patternLength - pText - 1; // pText == patternLength - 1
 		}
 		
@@ -33,7 +34,7 @@ public class BMMatch {
 				pPattern--;
 				pText--;
 			}
-			pText = (skip[txt.charAt(pText)] > patternLength - pPattern) ?
+			pText += (skip[txt.charAt(pText)] > patternLength - pPattern) ?
 					skip[txt.charAt(pText)] : patternLength - pPattern;
 		}
 		return -1;
@@ -65,5 +66,4 @@ public class BMMatch {
 			System.out.printf(String.format("패턴 : %%%ds\n", len), pattern);
 		}
 	}
-
 }
